@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cherry.css">
+    <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <p>header</p>
+    </header>
+    <div class="left-section">
+        <p>NAV</p>
+    </div>
+    <div id="mainsection">
+       <h1>top</h1>
+        <h2> color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color <br>
+        <br>
+       color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color <br>
+        <br>
+        color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color color </h2>
+    </div>
+    <div class="right-section">
+        <p>Hue</p>
+        <fieldset>
+    <input type="range" min="0" max="255" id="r" step="1" value="255">
+    <input type="range" min="0" max="255" id="g" step="1" value="255">
+    <input type="range" min="0" max="255" id="b" step="1" value="255">
+</fieldset>
+
+       <p>Opacity</p>
+       <fieldset>
+        <input type="range" value="100" min="1" max="100" oninput="changeOpacity(this.value/100)">
+       </fieldset>
+
+       <p>Lightness</p>
+       <fieldset>
+        <input type="range" id="range" min="10" max="100" value="100">
+       </fieldset>
+</div>
+    </div>
+    <div class="footer">
+        <p>footer</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
